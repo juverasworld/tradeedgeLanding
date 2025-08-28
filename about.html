@@ -5,14 +5,48 @@
    <meta charset="utf-8" />
    <meta http-equiv="x-ua-compatible" content="ie=edge" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <meta name="description" content="" />
+   
+   <!-- Primary Meta Tags -->
+   <title>TradEdge – Empowering the Informal Sector | Digital Identity, Finance & Trade</title>
+   <meta name="description" content="TradEdge is a digital ecosystem empowering traders, artisans, and farmers with digital identity, financial inclusion, market access, insurance, and government partnerships." />
+   <meta name="keywords" content="TradEdge, informal sector, digital identity, financial inclusion, micro-loans, artisans, farmers, trade opportunities, Nigeria, Africa" />
+   <meta name="author" content="TradEdge" />
+   <link rel="canonical" href="https://www.tradedge.ng/" />
 
-   <!-- Site Title -->
-   <title>Solvior - Business Consulting HTML Template</title>
+   <!-- Open Graph / Facebook -->
+   <meta property="og:type" content="website" />
+   <meta property="og:title" content="TradEdge – Empowering the Informal Sector" />
+   <meta property="og:description" content="Digital tools for traders, artisans, and farmers. From identity and finance to trade, insurance, and government support." />
+   <meta property="og:url" content="https://www.tradedge.ng/" />
+   <meta property="og:image" content="https://www.tradedge.ng/assets/images/logo.png" />
+   <meta property="og:site_name" content="TradEdge" />
 
-   <!-- Place favicon.ico in the root directory -->
-   <link rel="apple-touch-icon" href="assets/images/fav.png" />
-   <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png" />
+   <!-- Twitter -->
+   <meta name="twitter:card" content="summary_large_image" />
+   <meta name="twitter:title" content="TradEdge – Empowering the Informal Sector" />
+   <meta name="twitter:description" content="Bridging gaps in identity, finance, trade, and social protection for millions in the informal economy." />
+   <meta name="twitter:image" content="https://www.tradedge.ng/assets/images/logo.png" />
+
+   <!-- Favicon -->
+   <link rel="apple-touch-icon" href="/assets/images/logo.png" />
+   <link rel="shortcut icon" type="image/x-icon" href="/assets/images/logo.png" />
+
+   <!-- Schema.org JSON-LD (Basic Organization Schema) -->
+   <script type="application/ld+json">
+   {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     "name": "TradEdge",
+     "url": "https://www.tradedge.ng",
+     "logo": "https://www.tradedge.ng/assets/images/logo.png",
+     "sameAs": [
+       "https://www.facebook.com/TradEdgeNG",
+       "https://www.instagram.com/TradEdgeNG",
+       "https://x.com/TradEdgeNG",
+       "https://www.linkedin.com/company/tradedge"
+     ]
+   }
+   </script>
 
    <!-- CSS here -->
    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -25,11 +59,11 @@
    <link rel="stylesheet" href="assets/css/venobox.min.css" />
    <link rel="stylesheet" href="assets/css/meanmenu.css" />
    <link rel="stylesheet" href="assets/css/main.css" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/themify-icons/1.0.0/css/themify-icons.css">
-   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/themify-icons/1.0.0/css/themify-icons.css">
 </head>
+
 
 <body>
 
@@ -139,16 +173,19 @@
                      <!-- main navigation -->
                      <div class="mainmenu d-lg-block d-none" id="main-menu">
                         <ul>
-                           <li class="has-dropdown ">
+                           <li class=" ">
                               <a href="index.html">Home</a>
                              
                            </li>
                            <li class="">
-                              <a href="services.html">Services</a>
-                             
+                              <a href="#">Our Services <i class="bi bi-arrow-down"></i></a>
+                                 <ul class="sub-menu">
+                                 <li><a href="services.html">Services</a></li>
+                                 <li><a href="faq.html">FAQs</a></li>
+                              </ul>
                            </li>
                           
-                           <li class="has-dropdown current-menu-ancestor" >
+                           <li class=" current-menu-ancestor" >
                               <a href="#">About Us <i class="bi bi-arrow-down"></i></a>
                               <ul class="sub-menu">
                                  <li><a href="about.html">About Us</a></li>
@@ -217,16 +254,21 @@
                      <!-- main navigation -->
                      <div class="mainmenu d-lg-block d-none">
                         <ul>
-                           <li class="has-dropdown ">
+                           <li class=" ">
                               <a href="index.html">Home</a>
+                              
                              
+                           
                            </li>
-                           <li class="has-dropdown">
-                              <a href="services.html">Services</a>
-                            
+                           <li class="">
+                           <a href="#">Our Services ></i></a>
+                             <ul class="sub-menu">
+                                 <li><a href="services.html">Services</a></li>
+                                 <li><a href="faq.html">FAQs</a></li>
+                              </ul>
                            </li>
                           
-                           <li class="has-dropdown current-menu-ancestor">
+                           <li class=" current-menu-ancestor">
                               <a href="about.html">About Us</a>
                               <ul class="sub-menu">
                                  <li><a href="about.html">About Us</a></li>
@@ -277,6 +319,9 @@
          </div>
       </div>
    </header>
+   <!-- end: Header Area -->
+   <!-- end: Header Area -->
+
    <!-- end: Header Area -->
 
    <main id="primary" class="site-main">
@@ -1009,117 +1054,123 @@
    </main>
 
    <!-- start: Footer Area -->
-   <footer class="tj-footer-area">
-      <div class="footer-top-area fix">
-         <div class="container">
-            <div class="row rg-50 line">
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                  <div class="footer-widget footer1-col-1 footer-contact-infos">
-                     <div class="footer-title">
-                        <h4 class="title">Our offices</h4>
-                     </div>
-                     <div class="infos-item">
-                        <span>Headquarters - USA</span>
-                        <p>993 Renner Burg, West Rond, MT 94251-030</p>
-                        <a href="tel:1009544-7818">+1 (009) 544-7818</a>
-                     </div>
-                     <div class="infos-item">
-                        <span>Operations - Canada</span>
-                        <p>Suite 452 8082 Boner Parge, Elviraton, CA 48998</p>
-                     </div>
+ <footer class="tj-footer-area">
+   <div class="footer-top-area fix">
+      <div class="container">
+         <div class="row rg-50 line">
+            <!-- Office Info -->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+               <div class="footer-widget footer1-col-1 footer-contact-infos">
+                  <div class="footer-title">
+                     <h4 class="title">Our Office</h4>
                   </div>
-               </div>
-               <div class="col-xl-3 col-lg-2 col-md-6 col-sm-6">
-                  <div class="footer-widget footer1-col-2 widget_nav_menu">
-                     <div class="footer-title">
-                        <h4 class="title">Resourses</h4>
-                     </div>
-                     <div class="widget-menu">
-                        <ul>
-                           <li><a href="contact.html">Contact us</a></li>
-                           <li><a href="contact.html">Privacy policy</a></li>
-                           <li><a href="about.html">Recognitions</a></li>
-                           <li><a href="careers.html">Careers <span>New</span></a></li>
-                           <li><a href="blog.html">Blog</a></li>
-                           <li><a href="team.html">Feedback</a></li>
-                           <li><a href="contact.html">Error 404</a></li>
-                        </ul>
-                     </div>
+                  <div class="infos-item">
+                     <span>Head Office – Nigeria</span>
+                     <p>No 1 Gabriel Street, Abakaliki, Ebonyi State </p>
+                     <a href="tel:+234 9017287101">+234 9017287101</a>
                   </div>
-               </div>
-               <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-                  <div class="footer-widget footer1-col-3 widget_nav_menu">
-                     <div class="footer-title">
-                        <h4 class="title">Services</h4>
-                     </div>
-                     <div class="widget-menu">
-                        <ul>
-                           <li><a href="service-details.html">Strategic planning</a></li>
-                           <li><a href="service-details.html">Market research</a></li>
-                           <li><a href="service-details.html">Business process</a></li>
-                           <li><a href="service-details.html">Financial management</a></li>
-                           <li><a href="service-details.html">Change management</a></li>
-                           <li><a href="service-details.html">IT consulting</a></li>
-                           <li><a href="service-details.html">Leadership </a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                  <div class="footer-widget footer1-col-4 footer-newsletter-form">
-                     <div class="newsletter-title">
-                        <h3 class="title">Subscribe to our newsletter</h3>
-                     </div>
-                     <div class="newsletter-form">
-                        <form>
-                           <div class="form-input">
-                              <input type="email" id="email" name="email" placeholder="Enter email" required="">
-                              <button class="tj-footer-input-btn"><i class="fa-solid fa-paper-plane"></i></button>
-                           </div>
-                        </form>
-                     </div>
+                  <div class="infos-item">
+                     <span>Support</span>
+                     <p>Email: <a href="mailto:info@tradedge.ng">info@tradedge.ng</a></p>
                   </div>
                </div>
             </div>
-         </div>
-      </div>
-      <div class="footer-copyright-area">
-         <div class="container">
-            <div class="row">
-               <div class="col-12">
-                  <div class="copyright-content-area">
-                     <div class="copyright-text">
-                        <p>© 2025 <a href="#" target="_blank"> Solvior </a> All right reserved.</p>
-                     </div>
-                     <div class="copyright-socails">
-                        <ul>
-                           <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
-                           <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
-                           <li><a href="https://x.com/"><i class="fa-brands fa-twitter"></i></a></li>
-                           <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        </ul>
-                     </div>
-                     <div class="copyright-menu">
-                        <ul>
-                           <li><a href="contact.html">Policy & privacy</a></li>
-                           <li><a href="contact.html">Terms & conditions</a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
 
-      <!-- start: back to top -->
-      <div class="back-to-top-wrapper">
-         <button id="back_to_top" type="button" class="back-to-top-btn style-2">
-            <i class="tji-arrow-up"></i>
-            <span>GO TOP</span>
-         </button>
+            <!-- Resources -->
+            <div class="col-xl-3 col-lg-2 col-md-6 col-sm-6">
+               <div class="footer-widget footer1-col-2 widget_nav_menu">
+                  <div class="footer-title">
+                     <h4 class="title">Resources</h4>
+                  </div>
+                  <div class="widget-menu">
+                     <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <!-- <li><a href="blog.html">Blog & Updates</a></li> -->
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Services / Features -->
+            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+               <div class="footer-widget footer1-col-3 widget_nav_menu">
+                  <div class="footer-title">
+                     <h4 class="title">Our Services</h4>
+                  </div>
+                  <div class="widget-menu">
+                     <ul>
+                        <li><a href="#">Digital Identity</a></li>
+                        <li><a href="#">Financial Inclusion</a></li>
+                        <li><a href="#">Loans & Credit</a></li>
+                        <li><a href="#">Insurance</a></li>
+                        <li><a href="#">Business Tools</a></li>
+                        <li><a href="#">Government Programs</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+               <div class="footer-widget footer1-col-4 footer-newsletter-form">
+                  <div class="newsletter-title">
+                     <h3 class="title">Subscribe for Updates</h3>
+                  </div>
+                  <div class="newsletter-form">
+                     <form>
+                        <div class="form-input">
+                           <input type="email" id="email" name="email" placeholder="Enter your email" required="">
+                           <button class="tj-footer-input-btn"><i class="fa-solid fa-paper-plane"></i></button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-      <!-- end: back to top -->
-   </footer>
+   </div>
+
+   <!-- Copyright -->
+   <div class="footer-copyright-area">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="copyright-content-area">
+                  <div class="copyright-text">
+                     <p>© 2025 <a href="index.html" target="_blank">TradEdge</a> – Empowering the Informal Sector.</p>
+                  </div>
+                  <div class="copyright-socails">
+                     <ul>
+                        <li><a href="https://www.facebook.com/TradEdgeNG"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/TradEdgeNG"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://x.com/TradEdgeNG"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/tradedge"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                     </ul>
+                  </div>
+                  <div class="copyright-menu">
+                     <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- Back to top -->
+   <div class="back-to-top-wrapper">
+      <button id="back_to_top" type="button" class="back-to-top-btn style-2">
+         <i class="bi bi-arrow-up"></i>
+         <span>GO TOP</span>
+      </button>
+   </div>
+</footer>
    <!-- end: Footer Area -->
 
    <!-- JS here -->
